@@ -9,11 +9,19 @@
 <body>
     <div class="container">
         <h1>Lista de Tareas</h1>
-        <input type="text" id="taskInput" placeholder="Agregar nueva tarea">
-        <button id="addButton">Agregar</button>
-        <p id="error" class="error"></p>
+        <input type="text" id="taskInput" placeholder="Agrega una nueva tarea">
+        <button onclick="addTask()">Agregar Tarea</button>
+        <p id="error" class="error-message"></p>
+        
+        <div class="tags">
+            <span id="totalTasks">Total de Tareas: 0</span>
+            <span id="completedTasks">Tareas Completadas: 0</span>
+            <span id="incompleteTasks">Tareas Sin Completar: 0</span>
+        </div>
+
         <ul id="taskList"></ul>
     </div>
+    
     <script src="Script/script.js"></script>
 </body>
 </html>
