@@ -67,7 +67,7 @@ li.completed {
     display: flex;
     gap: 5px;
 }
-@media (max-width: 400px) {
+@media (max-width: 100px) {
     nav ul {
         flex-direction: column;
     }
